@@ -1,0 +1,256 @@
+/* Hero Section */
+.hero-trabaja {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/equipo-aviv.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 8rem 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-trabaja h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+/* Beneficios Section */
+.beneficios-section {
+    padding: 5rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.section-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.section-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.beneficio-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.beneficio-card:hover {
+    transform: translateY(-10px);
+}
+
+.beneficio-icon {
+    font-size: 2.5rem;
+    color: #F56A1D;
+    margin-bottom: 1.5rem;
+}
+
+.beneficio-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.beneficio-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Formulario de Contacto - Versión Premium */
+.contacto-trabajo {
+    padding: 6rem 2rem;
+    background-color: #f8fafc;
+    position: relative;
+}
+
+.contacto-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.contacto-container h2 {
+    font-size: 3rem;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    background: linear-gradient(90deg, #F56A1D, #D948D8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.contacto-container p {
+    font-size: 1.25rem;
+    color: #64748b;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* FORMULARIO COMPACTO Y ELEGANTE */
+.contacto-trabajo {
+    padding: 4rem 1rem;
+    background-color: #f8f9fa;
+}
+
+.contacto-container {
+    max-width: 650px; /* Más estrecho */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacto-container h2 {
+    font-size: 2.2rem; /* Título más grande */
+    color: #333;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contacto-container p {
+    font-size: 1.3rem; /* Texto más legible */
+    color: #555;
+    margin-bottom: 2.5rem;
+    line-height: 1.5;
+}
+
+.formulario-cv {
+    text-align: left;
+    background: white;
+    padding: 2.5rem; /* Espaciado reducido */
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border: 1px solid #eee;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem; /* Espaciado ajustado */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1.1rem; /* Padding ajustado */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1.1rem; /* Letra más grande */
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #F56A1D;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(245, 106, 29, 0.2);
+}
+
+.form-group textarea {
+    min-height: 120px; /* Altura reducida */
+    resize: vertical;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.6rem;
+    color: #444;
+    font-weight: 600;
+    font-size: 1.05rem; /* Label más grande */
+}
+
+/* Input archivo mejorado */
+.form-group input[type="file"] {
+    padding: 0.9rem;
+    border: 1px dashed #ccc;
+    background-color: #fafafa;
+    font-size: 1rem;
+}
+
+.btn-enviar {
+    background: #F56A1D;
+    color: white;
+    border: none;
+    padding: 1.2rem 2rem; /* Tamaño proporcional */
+    font-size: 1.15rem; /* Letra más grande */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    width: auto; /* Ancho automático */
+    display: inline-block; /* Para centrar */
+    margin: 0.5rem auto 0;
+}
+
+.btn-enviar:hover {
+    background: #e05e18;
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .contacto-container {
+        max-width: 90%;
+    }
+    
+    .contacto-container h2 {
+        font-size: 2rem;
+    }
+    
+    .contacto-container p {
+        font-size: 1.15rem;
+    }
+    
+    .formulario-cv {
+        padding: 2rem 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-group input,
+    .form-group textarea {
+        font-size: 1rem; /* Ajuste para móviles */
+    }
+    
+    .btn-enviar {
+        width: 100%; /* Botón ancho completo en móviles */
+    }
+}

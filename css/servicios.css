@@ -1,0 +1,221 @@
+/* ===== ESTILOS GENERALES SERVICIOS ===== */
+.servicios-container {
+    padding: 5rem 5%;
+    background-color: #FFF8F5;
+}
+
+/* Hero Section */
+.hero-servicios {
+    background: linear-gradient(135deg, var(--naranja-suave), var(--naranja-fuerte));
+    color: white;
+    padding: 8rem 5%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.hero-servicios h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-servicios .subtitulo {
+    font-size: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Secciones de Servicios */
+.servicio-section {
+    max-width: 1200px;
+    margin: 0 auto 6rem;
+    background: white;
+    border-radius: 12px;
+    padding: 4rem;
+    box-shadow: 0 5px 15px rgba(245, 106, 29, 0.08);
+}
+
+.servicio-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.servicio-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--naranja-suave), var(--naranja-fuerte));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem;
+}
+
+.servicio-icon i {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.servicio-section h2 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.servicio-descripcion {
+    font-size: 1.8rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Grid de Características */
+.caracteristicas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.caracteristica-item {
+    background: #FFF8F5;
+    padding: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.caracteristica-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(245, 106, 29, 0.1);
+}
+
+.caracteristica-item i {
+    font-size: 3rem;
+    color: var(--naranja-fuerte);
+    margin-bottom: 1.5rem;
+    background: rgba(245, 106, 29, 0.1);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.caracteristica-item h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.caracteristica-item p {
+    font-size: 1.6rem;
+    color: #666;
+}
+
+/* Sección Beneficios */
+.beneficios-section {
+    max-width: 1200px;
+    margin: 8rem auto;
+    text-align: center;
+}
+
+.beneficios-section h2 {
+    font-size: 3.2rem;
+    color: #333;
+    margin-bottom: 5rem;
+}
+
+.beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.beneficio-card {
+    background: white;
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    box-shadow: 0 5px 15px rgba(245, 106, 29, 0.08);
+    transition: transform 0.3s;
+}
+
+.beneficio-card:hover {
+    transform: translateY(-10px);
+}
+
+.beneficio-card i {
+    font-size: 3.5rem;
+    color: var(--naranja-fuerte);
+    margin-bottom: 2rem;
+}
+
+.beneficio-card h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.beneficio-card p {
+    font-size: 1.6rem;
+    color: #666;
+}
+
+/* Sección CTA */
+.cta-section {
+    background: linear-gradient(135deg, var(--naranja-suave), var(--naranja-fuerte));
+    color: white;
+    padding: 6rem 5%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.cta-section h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-section p {
+    font-size: 1.8rem;
+    max-width: 700px;
+    margin: 0 auto 3rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: white;
+    color: var(--naranja-fuerte);
+    padding: 1.5rem 3rem;
+    border-radius: 50px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-servicios h1 {
+        font-size: 2.8rem;
+    }
+    
+    .hero-servicios .subtitulo {
+        font-size: 1.6rem;
+    }
+    
+    .servicio-section {
+        padding: 3rem 2rem;
+    }
+    
+    .servicio-section h2 {
+        font-size: 2.4rem;
+    }
+    
+    .caracteristicas-grid {
+        grid-template-columns: 1fr;
+    }
+}

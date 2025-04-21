@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | AVIV MDZ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="../assets/logo.jpg.jpg" alt="Logo Aviv">
+        </div>
+    
+        <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/servicios.html">Servicios</a></li>
+                <li><a href="../pages/sobrenosotros.html" class="active">Sobre Nosotros</a></li>
+                <li><a href="../pages/trabaja.html">Tabaja con Nosotros</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li class="login-item">
+                    <a href="#login" class="login-button">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="contacto-container">
+        <section class="hero-contacto">
+            <div class="hero-content">
+                <h1>Contacta con nuestro equipo</h1>
+                <p class="subtitulo">Estamos listos para ayudarte a llevar tu negocio al siguiente nivel</p>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="contacto-section">
+            <div class="contacto-grid">
+                <div class="formulario-contacto">
+                    <h2>Envíanos un mensaje</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono (opcional)</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                        <div class="form-group">
+                            <label for="servicio">Servicio de interés</label>
+                            <select id="servicio" name="servicio">
+                                <option value="">Seleccione un servicio</option>
+                                <option value="customer-care">CRM</option>
+                                <option value="soporte-tecnico">Soporte Técnico</option>
+                                <option value="consultoria">Consultoría</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Tu mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <!-- Información de Contacto -->
+                <div class="info-contacto">
+                    <h2>Información de contacto</h2>
+                    <div class="contacto-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Calle Ejemplo 123, Mendoza, Argentina</p>
+                        </div>
+                    </div>
+                    <div class="contacto-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+54 261 123 4567</p>
+                        </div>
+                    </div>
+                    <div class="contacto-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@avivmendoza.com</p>
+                        </div>
+                    </div>
+                    <div class="contacto-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horario de atención</h3>
+                            <p>Lunes a Viernes: 9:00 - 18:00 hs</p>
+                            <p>Sábados: 9:00 - 13:00 hs</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Mapa -->
+        <section class="mapa-section">
+            <h2>Nuestra ubicación</h2>
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.448239392947!2d-68.84082892433874!3d-32.88631967363185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091ed2dd83f7%3A0xf41c7ab7e3522157!2sAv.%20San%20Mart%C3%ADn%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1686781382464!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-aviv-mdz">
+        <div class="footer-contenedor">
+            <div class="footer-branding">
+                <div class="logo-wrapper">
+                    <img src="../assets/Avid_mdz-removbg_to_hd.png" alt="AVIV MDZ" class="footer-logo">
+                </div>
+                <div class="footer-contacto">
+                    <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle Ejemplo 123, CABA, Argentina</p>
+                    <p><i class="fas fa-phone"></i> Teléfono: +54 11 1234-5678</p>
+                    <p><i class="fas fa-envelope"></i> Email: info@aviv.com.ar</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2025 AVIV MDZ - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/contacto.js"></script>
+</body>
+</html>
